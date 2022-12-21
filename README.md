@@ -2,7 +2,7 @@
 # 🟢 Obstacle Avoiding cum RC Robot
 This is a simple Arduino based robot which uses an ultrasonic distance sensor and a bluetooth module for its 
 obstacle avoiding and remote control functionality respectively. 
-## ◼ The Robot 
+## ✔ The Robot 
 
 ![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/robot.jpeg)
 
