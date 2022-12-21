@@ -8,7 +8,7 @@ obstacle avoiding and remote control functionality respectively.
 
 
 ## ◆ App for controlling the robot
- ### ◉ Code blocks
+ ###  ◉ Code blocks
 ![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/app_blocks.jpeg)
 
 As I am not into app development for now, I used MIT App inventor to create my app :)
