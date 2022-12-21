@@ -2,21 +2,21 @@
 # Obstacle Avoiding cum RC Robot
 This is a simple Arduino based robot which uses an ultrasonic distance sensor and a bluetooth module for its 
 obstacle avoiding and remote control functionality respectively. 
-## The Robot 
+## 🟢 The Robot 
 
 ![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/robot.jpeg)
 
 
-## App for controlling the robot
-### > Code blocks
+## ◆ App for controlling the robot
+### ◉ Code blocks
 ![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/app_blocks.jpeg)
 
 As I am not into app development for now, I used MIT App inventor to create my app :)
 
-### > The app
+### ◉ The app
 ![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/app.jpeg)
 
-## Circuit Diagram
+## ◆ Circuit Diagram
 ![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/circuit.jpeg)
 
 My circuit was pretty much same as above, difference being that I used 4 motors instead of two and I used two sets of batteries, one to power the arduino and the other to power the servo. I did this to
