@@ -11,12 +11,14 @@ It uses an ultrasonic distance sensor to avoid obstacles, a camera to keep track
 
 ## ◆ App for controlling the robot 📱
 
- ###  ◉ Code Blocks
-![App Screenshot](https://github.com/Abhishek-Kanti/OA-RC-Robot/blob/main/Images/app_blocks.jpeg)
+ ###  ◉ Code Blocks ![image](https://user-images.githubusercontent.com/114488605/212562436-253d45bd-4a13-417b-b90b-bb088fa87ff4.png)
+
+![app_blocks](https://user-images.githubusercontent.com/114488605/212562366-cb99a86c-4847-4238-ae3b-8a023accc480.jpeg)
 
 As I am not into app development for now, I used MIT App inventor to create my app :)
 
  ### ◉ The App 🕹️
+ 
 ![App Screenshot](https://user-images.githubusercontent.com/114488605/208926528-810db798-be83-4d88-86d1-6d146c2afd45.jpeg)
 
 As soon as the user pushes the button, a character is sent to the Arduino via the bluetooth which is then stored in a variable. It then goes through a series of if-else conditions and the required command is sent to the motors.
@@ -30,6 +32,7 @@ A Python Script consisting of the computer vision code runs on the PC and analys
 To have a look on the process and the working of the robot use the link: https://drive.google.com/file/d/1ZKSbjOFSNHMDaIJ48R3JdZmeByd2y-gf/view?usp=share_link
  
  ## ◆ Circuit Diagram
+ 
 ![App Screenshot](https://user-images.githubusercontent.com/114488605/208926716-aaa025e3-9435-4683-bbe1-b2ca6aa4f4c0.jpg)
 
 My circuit was pretty much same as above, difference being that I used 4 motors instead of two and I used two sets of batteries, one to power the arduino and the other to power the servo. I did this to
