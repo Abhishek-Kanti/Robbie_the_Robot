@@ -87,7 +87,7 @@ void loop(){
 }
 
 void bluetooth(){             // function to control the robot manually.
-  if(Serial.available()>0){      // checking if the device is ready for serial communication.
+  if(Serial.available()>0){      // checking if there is any data in the serial buffer.
     char value=Serial.read();    // fetching the values being sent by the app. 
     if(value=='u'){              // according to the value received, respective functions are called to move the robot.
       forward();
@@ -99,6 +99,28 @@ void bluetooth(){             // function to control the robot manually.
       right();
     } else if (value=='s'){
       stop();
+    }
+  }
+}
+
+void computerVision(){                               // function to control the robot using hand gestures.
+  if(Serial.available()>0){                          // checking if there is any data in the serial buffer. 
+    String value=Serial.readStringUntil('\n');       // fetching the values being sent by the python script.  
+    if(value == "f"){                                 // according to the value received, respective functions are called to move the robot.
+      forward();
+      Serial.write("f");
+    } else if(value == "b"){
+      backward();
+      Serial.write("b");
+    } else if(value == "l"){
+      left();
+      Serial.write("l");
+    } else if(value == "r"){
+      right();
+      Serial.write("r");
+    } else if (value == "s"){
+      Stop();
+      Serial.write("s");
     }
   }
 }
