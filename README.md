@@ -29,7 +29,7 @@ As soon as the user pushes the button, a character is sent to the Arduino via th
 
 A Python Script consisting of the computer vision code runs on the PC and analyses our gestures. The ML model recognises the patterns fed to it by the hand tracking module. This ML model returns an index after it has made the predictions, which is then sent to the Arduino via the COM port assigned to the bluetooth module HC-05. This index then goes through the if-else conditions and the desired commands are given to the motors.
 
-To have a look on the process and the working of the robot use the link: https://drive.google.com/file/d/1ZKSbjOFSNHMDaIJ48R3JdZmeByd2y-gf/view?usp=share_link
+To have a look on the process and the working of the robot, use the following link: https://drive.google.com/file/d/1ZKSbjOFSNHMDaIJ48R3JdZmeByd2y-gf/view?usp=share_link
  
  ## ◆ Circuit Diagram
  
