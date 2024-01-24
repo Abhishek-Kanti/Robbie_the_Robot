@@ -1,5 +1,5 @@
 
-# 🟢 ʀօɮɮɨɛ 🤖
+# 🟢 ROBBIE 🤖
 
 Robbie is an Arduino based robot which has Obstacle Avoiding, Computer Vision and Remote control functionality. 
 It uses an ultrasonic distance sensor to avoid obstacles, a camera to keep track of users' gestures and a bluetooth module to communicate to the Python script/the app (according to the mode opted by the user). It's bluetooth module (HC-05) can be paired to only one device at a time.
